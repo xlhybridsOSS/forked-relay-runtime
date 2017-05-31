@@ -1,5 +1,5 @@
 /**
- * Relay v1.0.0
+ * Relay vundefined
  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
@@ -4300,7 +4300,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      onError && onError(error);
 	    });
 	  }
-	  timeout = setTimeout(poll, pollInterval);
+	  poll();
 
 	  return { dispose: dispose };
 	}
